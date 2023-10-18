@@ -1,14 +1,20 @@
 <nav>
-	<a href="/">Home</a>
-	<a href="/about">About</a>
-	<a href="/settings">Settings</a>
+	<div class="nav-wrapper">
+		<a href="/">Home</a>
+		<a href="/about">About</a>
+		<a href="/settings">Settings</a>
+	</div>
 </nav>
 
-<slot></slot>
+<main>
+  <slot />  
+</main>
 
 
 <footer>
-    <a href="/">Home</a>
-	<a href="/about">About</a>
-	<a href="/settings">Settings</a>
+	<div class="footer-wrapper">
+		<a href="/">Home</a>
+		<a href="/about">About</a>
+		<a href="/settings">Settings</a>
+	</div>
 </footer>
