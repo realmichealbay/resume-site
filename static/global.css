@@ -20,6 +20,15 @@ html{
     overflow-x: hidden;
 }
 
+
+.over-top-intro{
+    position: absolute;
+    left: 40%;
+    bottom: 50%;
+    transform: translate(-50%,50%);
+}
+
+
 .nav-wrapper{
     padding: 1%;
 }

@@ -1,8 +1,11 @@
 
+<div class="over-top-intro">
+    <h1>Hi my name is Ethan Wallace</h1>
+    <h1 id="jpn">こんにちは、私の名前はイーサン・ウォレスです</h1>
+    <h1 id="cny">嗨，我的名字是伊森·华莱士</h1>
+    <h1 id="ru">Привет, меня зовут Итан Уоллес</h1>
+    <h1 id="ru">مرحبًا اسمي إيثان والاس</h1>
+    <h1 id="ru">Salut, je m'appelle Ethan Wallace</h1>
+    <h1 id="ru">Hallo, mein Name ist Ethan Wallace</h1>
+</div>
 
-<h1>Hi my name is Ethan Wallace</h1>
-<h1 id="jpn">こんにちは、私の名前はイーサン・ウォレスです</h1>
-<h1 id="cny">嗨，我的名字是伊森·华莱士</h1>
-<h1 id="ru">Привет, меня зовут Итан Уоллес</h1>
-<h1 id="ru">مرحبًا اسمي إيثان والاس</h1>
-<h1 id="ru"></h1>
