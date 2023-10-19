@@ -21,11 +21,12 @@ html{
 }
 
 
-.over-top-intro{
+#over-top-intro{
     position: absolute;
-    left: 40%;
+    left: 50%;
     bottom: 50%;
     transform: translate(-50%,50%);
+    text-align: right;
 }
 
 
@@ -91,4 +92,22 @@ p{
 
 #ru{
     font-family: NotosansRU;
+}
+
+
+.text {
+    position: absolute;
+    top: -100%; /* start offscreen */
+    animation: slideDown 2s ease-in-out forwards;
+    font-size: 2em;
+    filter: blur(5px); /* initial blur */
+    transition: filter 0.5s ease-in-out;
+}
+
+/* Animation to slide the text down */
+@keyframes slideDown {
+    to {
+        top: 50%;
+        filter: blur(0); /* clear blur at the end */
+    }
 }
