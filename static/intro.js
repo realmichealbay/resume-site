@@ -1,7 +1,6 @@
-window.onload = function() {
-    const introductionElement = document.getElementById('over-top-intro');
+/*const introductionElement = document.getElementById('over-top-intro');
 
-    const translations = [
+const translations = [
         'Hola, mi nombre es Ethan Wallace.',
         'Salut, je m\'appelle Ethan Wallace',
         'Bonjour, je m\'appelle Ethan Wallace.',
@@ -15,19 +14,26 @@ window.onload = function() {
     
     ];
 
-    let index = 0;
+let index = 0;
+let animationName = 'slideDown1';
 
-    function updateIntroduction() {
-        introductionElement.textContent = translations[index];
-        index = (index + 1) % translations.length;
-        
+function updateIntroduction() {
+    introductionElement.textContent = translations[index];
+    introductionElement.style.animation = `${animationName} 2s ease-in-out forwards`;
 
-        if (index !== translations.length ) {
-            setTimeout(updateIntroduction, 500);
-            console.log(index)  // Change text every 2 seconds
-        }
+    // Toggle the animation name for the next iteration
+    animationName = animationName === 'slideDown1' ? 'slideDown2' : 'slideDown1';
+
+    index++;
+    if (index === translations.length) {
+        clearInterval(intervalId);  // Stop the interval when all translations have been shown
     }
-
-    // Start the effect when the page loads
-    updateIntroduction();
 }
+
+// Adjust the initial position of the text element to match the animation
+introductionElement.style.top = '-100%';
+
+const intervalId = setInterval(updateIntroduction, 1500);  // Change text every 2 seconds
+
+// Start the effect when the page loads
+window.onload = updateIntroduction;*/

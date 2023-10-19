@@ -5,15 +5,6 @@
     src: url(NotoSansJP-VariableFont_wght.ttf);
 }
 
-@font-face {
-    font-family: NotosansCN;
-    src: url(NotoSansSC-VariableFont_wght.ttf);
-}
-
-@font-face {
-    font-family: NotosansRU;
-    src: url(NotoSans-Medium.ttf);
-}
 
 
 html{
@@ -27,6 +18,8 @@ html{
     bottom: 50%;
     transform: translate(-50%,50%);
     text-align: right;
+    font-family: NotosansJP;
+    font-size: 3rem;
 }
 
 
@@ -92,22 +85,4 @@ p{
 
 #ru{
     font-family: NotosansRU;
-}
-
-
-.text {
-    position: absolute;
-    top: -100%; /* start offscreen */
-    animation: slideDown 2s ease-in-out forwards;
-    font-size: 2em;
-    filter: blur(5px); /* initial blur */
-    transition: filter 0.5s ease-in-out;
-}
-
-/* Animation to slide the text down */
-@keyframes slideDown {
-    to {
-        top: 50%;
-        filter: blur(0); /* clear blur at the end */
-    }
 }
