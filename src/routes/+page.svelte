@@ -30,5 +30,13 @@
     </div>
     <div>
         <h1>Hi, my name is Ethan Wallace.</h1>
+        <h1 class="secondaryText">
+            And i am a
+        </h1>
+        <div class="tertiaryText">
+            <h1>Web Developer</h1>
+            <h1>&nbsp;& Forex Trader</h1>
+        </div>
+        
     </div>
 </div>
