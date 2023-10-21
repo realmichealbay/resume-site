@@ -1,22 +1,13 @@
-<nav>
-	<div class="nav-wrapper">
-		<a href="/">Home</a>
-		<a href="/about">About</a>
-		<a href="/settings">Settings</a>
-	</div>
-</nav>
+<div id="left-bar">
+	<a href="https://github.com/realmichealbay">
+		<img src="../img/github.png" alt="">
+	</a>
+	<a href="https://www.linkedin.com/in/ethan-wallace-733525297/">
+		<img src="../img/linkedin.png" alt="">
+	</a>
+</div>
 
-<main>
-  <slot />  
-</main>
+<slot/>  
 
-
-<footer>
-	<div class="footer-wrapper">
-		<a href="/">Home</a>
-		<a href="/about">About</a>
-		<a href="/settings">Settings</a>
-	</div>
-</footer>
 
 

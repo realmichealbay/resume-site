@@ -37,3 +37,4 @@ const intervalId = setInterval(updateIntroduction, 1500);  // Change text every 
 
 // Start the effect when the page loads
 window.onload = updateIntroduction;*/
+
