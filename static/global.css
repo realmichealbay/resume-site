@@ -103,7 +103,7 @@ p {
 
 :root{
    --anim-length: 1s;
-   --anim-total: 7s;
+   --anim-total: 1s;
 }
 
 #intro-container{
@@ -149,7 +149,7 @@ p {
         opacity: 1;
     }
 }
-
+/*
 #over-top-intro div:nth-child(1){
     animation: Intro-Anim var(--anim-length);
     animation-delay: 1s;
@@ -173,11 +173,11 @@ p {
 #over-top-intro div:nth-child(6){
     animation: Intro-Anim var(--anim-length);
     animation-delay: 6s;
-}
+}*/
 #over-top-intro > div:last-child {
     animation: Intro-Anim-Stay var(--anim-length);
     animation-fill-mode: both;
-    animation-delay: 7s;
+    animation-delay: 1s;
 }
 
 #intro-bottom-text{
