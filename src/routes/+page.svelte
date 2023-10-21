@@ -1,4 +1,5 @@
-<div id="over-top-intro">
+<div id="intro-container">
+	<div id="over-top-intro">
 	<div>
 		<h1>Bonjour, je m'appelle Ethan Wallace.</h1>
 	</div>
@@ -29,10 +30,14 @@
 		<h1>&nbsp;& Forex Trader</h1>
 	</div>
 </div>
+</div>
+
+
 
 <main>
-	
-
+	<div>
+		<h1> Hi i am a </h1>
+	</div>
 </main>
 
 
