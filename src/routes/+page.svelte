@@ -18,7 +18,8 @@
 
 <main>
 	<div>
-		<h1> Hi i am a </h1>
+		<h1>About Me</h1>
+		<p>I am a Coder learning AP Computer Science & Cybersecuirty in Highschool</p>
 	</div>
 </main>
 
