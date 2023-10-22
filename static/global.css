@@ -1,5 +1,4 @@
 @charset "utf-8";
-
 @font-face {
 	font-family: NotosansJP;
 	src: url(NotoSansJP-VariableFont_wght.ttf);
@@ -12,28 +11,22 @@
 .custuom-Scroll::-webkit-scrollbar-button{
     display: none;
 }
-/* This will change the background of the entire scrollbar track */
 ::webkit-scrollbar {
     width: 12px;  /* Width of the vertical scrollbar */
     height: 12px; /* Height of the horizontal scrollbar */
     background-color: #141414; /* Color of the scrollbar track */
 }
-/* This will style the thumb of the scrollbar */
 ::webkit-scrollbar-thumb {
     background-color: #888;  /* Color of the scrollbar thumb */
     border-radius: 6px;      /* Rounded corners of the thumb */
     border: 2px solid #141414; /* Border around the thumb, make sure to subtract this value from the width and height */
 }
-
-/* Change the thumb color when hovering over it */
 ::webkit-scrollbar-thumb:hover {
     background-color: #555;
 }
 ::webkit-scrollbar-button {
     display: none;
 }
-
-
 
 html {
 	overflow-x: hidden;
@@ -55,6 +48,7 @@ html {
 #left-bar img{
     width: 100%;
     padding-bottom: 20px;
+    filter: invert();
 }
 
 
@@ -72,27 +66,35 @@ a:-webkit-any-link {
 }
 
 
+/*
+colors to remember
+#141414
+#181818
+#4774AD
+*/
 
 
 main {
-    width: 70%;
-    background-color: #545454;
+    width: 80%;
     position: absolute;
     top: 110%;
     left: 50%;
-    transform: translate(-50%, -40%);
+    transform: translate(-50%, -30%);
     z-index: -1;
-    
 }
 main div{
-    margin: 5%;
+    color: #fff;
+    margin: 5% 0%;
+    padding: 2%;
+    border-radius: 20px;
+    background-color: rgba(51,51,51,1);
 }
 
 
 main a:-webkit-any-link {
 	color: #141414;
 }
-main h1{
+main h1,ul{
     font-family: NotosansJP;
 }
 p {
@@ -152,31 +154,6 @@ p {
         opacity: 1;
     }
 }
-/*
-#over-top-intro div:nth-child(1){
-    animation: Intro-Anim var(--anim-length);
-    animation-delay: 1s;
-}
-#over-top-intro div:nth-child(2){
-    animation: Intro-Anim var(--anim-length);
-    animation-delay: 2s;
-}
-#over-top-intro div:nth-child(3){
-    animation: Intro-Anim var(--anim-length);
-    animation-delay: 3s;
-}
-#over-top-intro div:nth-child(4){
-    animation: Intro-Anim var(--anim-length);
-    animation-delay: 4s;
-}
-#over-top-intro div:nth-child(5){
-    animation: Intro-Anim var(--anim-length);
-    animation-delay: 5s;
-}
-#over-top-intro div:nth-child(6){
-    animation: Intro-Anim var(--anim-length);
-    animation-delay: 6s;
-}*/
 #over-top-intro > div:last-child {
     animation: Intro-Anim-Stay var(--anim-length);
     animation-fill-mode: both;

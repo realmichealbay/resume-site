@@ -18,8 +18,28 @@
 
 <main>
 	<div>
+		<hr>
 		<h1>About Me</h1>
 		<p>I am a Coder learning AP Computer Science & Cybersecuirty in Highschool</p>
+
+
+		
+
+	</div>
+	<div>
+		<hr>
+		<h1>My Skills</h1>
+		<p>these are in order of when i first learned them</p>
+		<ul>
+			<li>Python3</li>
+			<li></li>
+		</ul>
+	</div>
+	<div>
+		<h1>My Achivements, so far</h1>
+		<ul>
+			<li></li>
+		</ul>
 	</div>
 </main>
 
