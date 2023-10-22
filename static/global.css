@@ -57,12 +57,9 @@ a,
 a:visited,
 a:active,
 a:-webkit-any-link {
-	color: #ffffff;
-	text-decoration: none;
-	font-size: 22px;
+    color: inherit;
+	text-decoration: underline;
 	font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
-	padding-left: 5px;
-	padding-right: 5px;
 }
 
 
@@ -79,7 +76,7 @@ main {
     position: absolute;
     top: 110%;
     left: 50%;
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -10%);
     z-index: -1;
 }
 main div{
@@ -90,12 +87,11 @@ main div{
     background-color: rgba(51,51,51,1);
 }
 
-
-main a:-webkit-any-link {
-	color: #141414;
-}
 main h1,ul{
     font-family: NotosansJP;
+}
+li{
+    list-style-type: square;
 }
 p {
 	font-family: TitilliumWeb;
@@ -198,4 +194,20 @@ p {
     animation-delay: calc(var(--anim-total) + 3s);
     animation-fill-mode: both;
     opacity: 0;
+}
+
+#chevron{
+    opacity:1;
+    width: 3vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 40vh);
+    align-items: center;
+    animation: Intro-Anim-Stay 1s;
+    animation-delay: 4.5s;
+    animation-fill-mode: both;
+}
+#chevron img{
+    width: 100%;
 }

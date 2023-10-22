@@ -14,6 +14,9 @@
 </div>
 </div>
 
+<div id="chevron">
+	<img src="../img/downChev.png" alt="">
+</div>
 
 
 <main>
@@ -32,13 +35,30 @@
 		<p>these are in order of when i first learned them</p>
 		<ul>
 			<li>Python3</li>
+			<li>HTML 5</li>
+			<li>CSS</li>
+			<li>Java</li>
+
+		</ul>
+		<p>Other Skills</p>
+		<ul>
+			<li>Attended NYLT <a href="https://www.scouting.org/programs/scouts-bsa/troop-resources/nylt/">(National Youth Leadership Training)</a></li>
+			<li>Bilingual (Japanese 1.5 Years) A2-B1 CEFR</li>
+		</ul>
+	</div>
+	<div>
+		<h1>My Achivements & Awards, so far</h1>
+		<ul>
+			<li>Achieved Eagle Scout 9/19/23</li>
+			<li>Conservation Award from the Meramec Valley Grotto 1/6/23 <a href="https://mdc.mo.gov/newsroom/mdc-35-tons-trash-removed-ste-genevieve-county-sinkhole-cave"> If you are interested in reading why i got the award please click this link :)</a></li>
 			<li></li>
 		</ul>
 	</div>
 	<div>
-		<h1>My Achivements, so far</h1>
+		<h1>Extracurriculars</h1>
 		<ul>
-			<li></li>
+			<li>First Robotics Competition Team MHS-PI 6744</li>
+			<li>Scouts ~6 Years</li>
 		</ul>
 	</div>
 </main>
