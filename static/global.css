@@ -49,36 +49,43 @@ html {
 }
 
 
-
-
 a,
 a:visited,
 a:active,
 a:-webkit-any-link {
 	color: inherit;
 	text-decoration: underline;
-	font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
 }
+
+
 
 main {
-	width: 80vw;
-	margin: 10vw;
-	z-index: -1;
+	width: 70vw;
+	margin: 15vw;
 }
 main div {
-	color: #fff;
-	margin-top: 15vh;
+	color: black;
 	padding: 2%;
 	border-radius: 20px;
-	background-color: rgba(51, 51, 51, 1);
+}
+main div > h1{
+	padding-left: 2vw;
+}
+main div > p{
+	padding-left: 1vw;
+}
+main div > ul{
+	padding-left: 3vw;
 }
 
-main h1,
-ul {
+
+h1{
 	font-family: NotosansJP;
 }
+
 li {
 	list-style-type: square;
+	font-family: TitilliumWeb;
 }
 p {
 	font-family: TitilliumWeb;
@@ -150,7 +157,7 @@ p {
 
 .firstText {
 	animation: Intro-Anim-Stay 5s;
-	animation-delay: calc(var(--anim-total) + 1s);
+	animation-delay: calc(var(--anim-total) + .5s);
 	animation-fill-mode: both;
 	font-family: TitilliumWeb;
 	opacity: 0;
@@ -179,19 +186,19 @@ p {
 
 .tertiaryText h1:nth-child(1) {
 	animation: Intro-Anim-Stay 5s;
-	animation-delay: calc(var(--anim-total) + 2s);
+	animation-delay: calc(var(--anim-total) + 1.5s);
 	animation-fill-mode: both;
 	opacity: 0;
 }
 .tertiaryText h1:nth-child(2) {
 	animation: Intro-Anim-Stay 5s;
-	animation-delay: calc(var(--anim-total) + 3s);
+	animation-delay: calc(var(--anim-total) + 2s);
 	animation-fill-mode: both;
 	opacity: 0;
 }
 .tertiaryText h1:nth-child(3) {
 	animation: Intro-Anim-Stay 5s;
-	animation-delay: calc(var(--anim-total) + 4s);
+	animation-delay: calc(var(--anim-total) + 2.5s);
 	animation-fill-mode: both;
 	opacity: 0;
 }

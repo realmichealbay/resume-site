@@ -1,30 +1,3 @@
-<!--
-<script>
-	import { onMount } from 'svelte';
-
-	let chevronOpacity = 1;
-
-	onMount(() => {
-		/*
-        function handleScroll() {
-            console.log(window.scrollY);
-
-            if (window.scrollY > 200) {
-                chevronOpacity = 0;
-            } else {
-                chevronOpacity = 1;
-            }
-        }
-
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {  // cleanup when component is destroyed
-            window.removeEventListener('scroll', handleScroll);
-        };*/
-	});
-</script>	
--->
-
 <div id="intro-container">
 	<div id="over-top-intro">
 		<div class="firstText">
@@ -86,7 +59,7 @@
 					If you are interested in reading why i got the award please click this link :)</a
 				>
 			</li>
-			<li />
+
 		</ul>
 	</div>
 	<div>
@@ -97,4 +70,12 @@
 			<li>Scouts ~6 Years</li>
 		</ul>
 	</div>
+
+
+	<div>
+		<hr>
+		<h1>Download My Resume</h1>
+		<p>Click <a href="">Here</a></p>
+	</div>
+
 </main>
