@@ -1,3 +1,4 @@
+<!--
 <script>
 	import { onMount } from 'svelte';
 
@@ -21,7 +22,8 @@
             window.removeEventListener('scroll', handleScroll);
         };*/
 	});
-</script>
+</script>	
+-->
 
 <div id="intro-container">
 	<div id="over-top-intro">
@@ -40,16 +42,17 @@
 	</div>
 </div>
 
-<div id="chevron" style="opacity: {chevronOpacity}; transition: opacity 0.3s;">
+<div id="chevron">
 	<img src="../img/downChev.png" alt="" />
 </div>
 
 <main>
-	<div id="targetElement" />
 	<div>
 		<hr />
 		<h1>About Me</h1>
-		<p>I am a Coder learning AP Computer Science & Cybersecuirty in Highschool</p>
+		<p>
+			I am a Coder learning AP Computer Science & Cybersecuirty in Highschool @MHS. Tinkerer, and
+		</p>
 	</div>
 	<div>
 		<hr />

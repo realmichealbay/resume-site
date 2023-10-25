@@ -1,5 +1,8 @@
-<div id="page-layout-wrapper">
-	<div id="left-bar">
+<slot />
+
+<footer>
+	<h1>Contact Me</h1>
+	<div id="contact-bar">
 		<a href="https://github.com/realmichealbay" target="_blank">
 			<img src="../img/github.png" alt="" />
 		</a>
@@ -10,8 +13,5 @@
 			<img src="../img/email.png" alt="" />
 		</a>
 	</div>
-
-	<slot />
-
-	<footer>Contact</footer>
-</div>
+	<p>Last Updated 10/24/23</p>
+</footer>

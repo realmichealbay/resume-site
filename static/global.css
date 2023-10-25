@@ -29,8 +29,6 @@
 }
 */
 
-#targetElement {
-}
 
 body,
 html {
@@ -39,30 +37,19 @@ html {
 	height: 100%;
 }
 
-#page-layout-wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+
+
+#contact-bar{
+	width: 100%;
+}
+#contact-bar img{
+	padding: 20px 3vw 20px 3vw;
+	width: 4%;
+	/*filter: invert();*/
 }
 
-#left-bar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 5vh;
-	height: 100vh;
-	background: linear-gradient(180deg, rgba(51, 51, 51, 1) 63%, rgba(24, 24, 24, 1) 100%);
-	border-style: none solid none none;
-	display: flex;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: center;
-}
-#left-bar img {
-	width: 100%;
-	padding-bottom: 20px;
-	filter: invert();
-}
+
+
 
 a,
 a:visited,
@@ -74,14 +61,13 @@ a:-webkit-any-link {
 }
 
 main {
-	width: 80%;
-	margin: 10%;
+	width: 80vw;
+	margin: 10vw;
 	z-index: -1;
-	flex: 1;
 }
 main div {
 	color: #fff;
-	margin: 5% 0%;
+	margin-top: 15vh;
 	padding: 2%;
 	border-radius: 20px;
 	background-color: rgba(51, 51, 51, 1);
@@ -109,14 +95,14 @@ p {
 }
 
 #intro-container {
-	height: 90vh;
+	height: 50vh;
 	width: 100%;
 }
 
 #over-top-intro {
 	font-family: NotosansJP;
 	font-size: 22px;
-	margin-top: 25%;
+	margin-top: 40vh;
 }
 
 @keyframes Intro-Anim {
@@ -211,12 +197,10 @@ p {
 }
 
 #chevron {
+    margin-left: 48.5vw;
+    margin-right: 48.5vw;
+    width: 3vw;
 	opacity: 1;
-	width: 3vh;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, 40vh);
 	align-items: center;
 	animation: Intro-Anim-Stay 1s;
 	animation-delay: 4.5s;
@@ -227,6 +211,7 @@ p {
 }
 
 footer {
+	font-family: NotosansJP;
 	text-align: center;
 	width: 100%;
 	left: 0;
