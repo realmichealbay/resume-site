@@ -16,7 +16,7 @@
 </div>
 
 <div id="chevron">
-	<img src="../img/downChev.png" alt="" />
+	<img src="https://firebasestorage.googleapis.com/v0/b/resume-site-61e28.appspot.com/o/downChev.heif?alt=media&token=116e65a6-f309-4679-adf1-281427da692b&_gl=1*10wsdiw*_ga*MTMxMTM5OTEyMi4xNjk3NTY5MjE1*_ga_CW55HF8NVT*MTY5ODQ2NTIzNy43LjEuMTY5ODQ2NTUyOS42MC4wLjA." alt="" />
 </div>
 
 <main>
@@ -24,18 +24,21 @@
 		<hr />
 		<h1>About Me</h1>
 		<p>
-			I am a Coder learning AP Computer Science & Cybersecuirty in Highschool @MHS. Tinkerer, and
+			Hi, My name is Ethan Wallace. Currently I am a student learning AP Computer Science & Cybersecuirty @MHS Highschool.
+
 		</p>
 	</div>
 	<div>
 		<hr />
 		<h1>My Skills</h1>
-		<p>these are in order of when i first learned them</p>
+		<p>In Order Chronologically</p>
 		<ul>
 			<li>Python3</li>
 			<li>HTML 5</li>
 			<li>CSS</li>
 			<li>Java</li>
+			<li>JavaScript</li>
+			<li>Linux: Debian, Kali</li>
 		</ul>
 		<p>Other Skills</p>
 		<ul>
@@ -59,6 +62,7 @@
 					If you are interested in reading why i got the award please click this link :)</a
 				>
 			</li>
+			<li>Scouts, OA 2nd Highest Honor</li>
 
 		</ul>
 	</div>
@@ -69,6 +73,18 @@
 			<li>First Robotics Competition Team MHS-PI 6744</li>
 			<li>Scouts ~6 Years</li>
 		</ul>
+	</div>
+	<div>
+		<hr>
+		<h1>Past Jobs</h1>
+		<p>In Order Chronologically</p>
+
+	<ul>
+		<li><a href="https://dulanys.com/">Dulanys</a>, Dishwasher, 8/2022-10/2022</li>
+		<li><a href="https://friendshipvillagestl.com/sunset-hills">FriendShip Village Sunset Hills</a>, Foodservice 10/2022 - 5/2023</li>
+	</ul>
+
+
 	</div>
 
 
