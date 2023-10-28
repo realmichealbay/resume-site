@@ -91,7 +91,7 @@
 	<div>
 		<hr>
 		<h1>Download My Resume</h1>
-		<p>Click <a href="">Here</a></p>
+		<p>Click <a href="#">Here</a></p>
 	</div>
 
 </main>
