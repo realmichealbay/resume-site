@@ -1,0 +1,7 @@
+[
+    {
+        "origin": ["https://theethanwallace.com"],
+        "method": ["GET"],
+        "maxAgeSeconds": 3600
+    }
+]
