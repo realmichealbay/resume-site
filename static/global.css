@@ -1,11 +1,11 @@
 @charset "utf-8";
 @font-face {
 	font-family: NotosansJP;
-	src: url(NotoSansJP-VariableFont_wght.ttf);
+	src: url(https://firebasestorage.googleapis.com/v0/b/resume-site-61e28.appspot.com/o/NotoSansJP-VariableFont_wght.ttf?alt=media&token=767ce387-9746-4f55-ab49-a80dfb39bb41&_gl=1*1rjjznu*_ga*MTMxMTM5OTEyMi4xNjk3NTY5MjE1*_ga_CW55HF8NVT*MTY5OTEzMTE0My4xMS4xLjE2OTkxMzExOTIuMTEuMC4w);
 }
 @font-face {
 	font-family: TitilliumWeb;
-	src: url(TitilliumWeb-Regular.ttf);
+	src: url(https://firebasestorage.googleapis.com/v0/b/resume-site-61e28.appspot.com/o/TitilliumWeb-Regular.ttf?alt=media&token=62fc45ff-38b9-41f7-822e-a2c1667ab0d3&_gl=1*183mn8b*_ga*MTMxMTM5OTEyMi4xNjk3NTY5MjE1*_ga_CW55HF8NVT*MTY5OTEzMTE0My4xMS4xLjE2OTkxMzEyMDMuNjAuMC4w);
 }
 
 body,
