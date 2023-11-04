@@ -1,7 +1,7 @@
 @charset "utf-8";
 @font-face {
-	font-family: NotosansJP;
-	src: url(https://firebasestorage.googleapis.com/v0/b/resume-site-61e28.appspot.com/o/NotoSansJP-VariableFont_wght.ttf?alt=media&token=767ce387-9746-4f55-ab49-a80dfb39bb41&_gl=1*1rjjznu*_ga*MTMxMTM5OTEyMi4xNjk3NTY5MjE1*_ga_CW55HF8NVT*MTY5OTEzMTE0My4xMS4xLjE2OTkxMzExOTIuMTEuMC4w);
+	font-family: Notosans;
+	src: url(https://firebasestorage.googleapis.com/v0/b/resume-site-61e28.appspot.com/o/NotoSans-Regular.ttf?alt=media&token=4b169f7d-3527-4d1f-94a1-227235a3d605&_gl=1*1jf2tlp*_ga*ODc2NDM0OTc5LjE2OTgyNzI5MjY.*_ga_CW55HF8NVT*MTY5OTEzMTE0My4xMS4xLjE2OTkxMzI1OTMuNDcuMC4w);
 }
 @font-face {
 	font-family: TitilliumWeb;
@@ -43,7 +43,7 @@ main div {
 }
 
 h1 {
-	font-family: NotosansJP;
+	font-family: Notosans;
 }
 
 li {
@@ -56,7 +56,7 @@ p {
 }
 
 #jpn {
-	font-family: NotosansJP;
+	font-family: Notosans;
 }
 
 :root {
@@ -70,7 +70,7 @@ p {
 }
 
 #over-top-intro {
-	font-family: NotosansJP;
+	font-family: Notosans;
 	font-size: 22px;
 	margin-top: 40vh;
 }
@@ -181,7 +181,7 @@ p {
 }
 
 footer {
-	font-family: NotosansJP;
+	font-family: Notosans;
 	text-align: center;
 	width: 100%;
 	left: 0;
