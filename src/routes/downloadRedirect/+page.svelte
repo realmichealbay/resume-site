@@ -1,0 +1,1 @@
+<meta http-equiv="refresh" content="0;url=https://firebasestorage.googleapis.com/v0/b/resume-site-61e28.appspot.com/o/Untitled%20document.pdf?alt=media&token=00043147-57d1-49c2-b5e4-a4f12e239151">

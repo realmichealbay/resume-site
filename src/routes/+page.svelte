@@ -134,7 +134,7 @@
 	<div>
 		<hr>
 		<h1>Download My Resume</h1>
-		<p>Click <a href="https://firebasestorage.googleapis.com/v0/b/resume-site-61e28.appspot.com/o/Untitled%20document.pdf?alt=media&token=00043147-57d1-49c2-b5e4-a4f12e239151">Here</a></p>
+		<p>Click <a href="/downloadRedirect">Here</a></p>
 	</div>
 
 </main>
