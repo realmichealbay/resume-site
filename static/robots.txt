@@ -1,1 +1,5 @@
-i dont care 
+User-agent: *
+Disallow: /thing
+Disallow: /[dynamic]
+
+Sitemap: https://theethanwallace.com/sitemap.xml
