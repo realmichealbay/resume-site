@@ -11,4 +11,5 @@ vite.config.ts.timestamp-*
 .cache
 .log
 /quickactions
-/.firebase
+.firebase/
+

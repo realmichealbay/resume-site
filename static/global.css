@@ -165,6 +165,14 @@ p {
 	animation-fill-mode: both;
 	opacity: 0;
 }
+.tertiaryText h1:nth-child(4) {
+	animation: Intro-Anim-Stay 5s;
+	animation-delay: calc(var(--anim-total) + 3s);
+	animation-fill-mode: both;
+	opacity: 0;
+}
+
+
 
 #chevron {
 	margin-left: 48.5vw;
@@ -186,4 +194,15 @@ footer {
 	width: 100%;
 	left: 0;
 	bottom: 0;
+}
+
+
+#top-lines{
+	background-color: #141414;
+	position: relative;
+	width: 300%;
+	height: 75px;
+	rotate: -45deg;
+	transform: translate(-50%,-4000%);
+
 }

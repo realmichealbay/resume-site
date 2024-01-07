@@ -13,5 +13,5 @@
 			<img src="https://firebasestorage.googleapis.com/v0/b/resume-site-61e28.appspot.com/o/email.heif?alt=media&token=99b64f48-c107-4f37-b7ba-378d31feae4d&_gl=1*17ax29v*_ga*MTMxMTM5OTEyMi4xNjk3NTY5MjE1*_ga_CW55HF8NVT*MTY5ODQ2NTIzNy43LjEuMTY5ODQ2NTYwNS40OS4wLjA." alt="" />
 		</a>
 	</div>
-	<p>Last Updated 10/24/23</p>
+	<p>Last Updated 1/5/24</p>
 </footer>

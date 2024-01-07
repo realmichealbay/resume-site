@@ -8,12 +8,19 @@
 	<div id="intro-bottom-text">
 		<h1 class="secondaryText">And i am a</h1>
 		<div class="tertiaryText">
-			<h1>Web Developer</h1>
-			<h1>&nbsp;& &nbsp;</h1>
-			<h1>Forex Trader</h1>
+			<h1>Web </h1>
+			<h1>&nbsp;&</h1>
+			<h1>&nbsp;Software</h1>
+			<h1>&nbsp;Developer</h1>
 		</div>
 	</div>
 </div>
+<!--
+	<div id="top-lines">
+&nbsp;
+</div>
+-->
+
 
 <div id="chevron">
 	<img src="https://firebasestorage.googleapis.com/v0/b/resume-site-61e28.appspot.com/o/downChev.heif?alt=media&token=116e65a6-f309-4679-adf1-281427da692b&_gl=1*10wsdiw*_ga*MTMxMTM5OTEyMi4xNjk3NTY5MjE1*_ga_CW55HF8NVT*MTY5ODQ2NTIzNy43LjEuMTY5ODQ2NTUyOS42MC4wLjA." alt="" />
@@ -32,10 +39,10 @@
 		<hr>
 		<h1>Education</h1>
 		<p>Mehlville High School, Junior Class of 2025</p>
-		<p>GPA 3.57/4</p>
+		<p>GPA 3.71/4</p>
 		<p>Noteable Classes</p>
 		<ul>
-			<li>AP Cybersecurity</li>
+			<li>Cybersecurity</li>
 			<li>Ap Computer Science A & Computer Science Principles</li>
 			<li>Social Media Advertising</li>
 			<li>Web Design 1 && 2</li>
@@ -69,7 +76,15 @@
 			<li>Image Editing Software, GIMP, Photoshop</li>
 		</ul>
 
-		<h1>Other Skills</h1>
+	</div>
+	<div>
+		<hr>
+		<h1>Soft Skills</h1>
+		<ul>
+			<li>Teamwork</li>
+			<li>Communication</li>
+		</ul>
+
 		<p>Leadership</p>
 		<ul>
 			<li>
@@ -78,7 +93,10 @@
 			<li>Patrol Leader in Scouts for over 4 years</li>
 		</ul>
 		<p>Foreign Language</p>
-		<li>Bilingual (Japanese 1.65 Years) A2-B1 CEFR</li>
+		<ul>
+			<li>Bilingual (Japanese 1.65 Years) A2-B1 CEFR</li>
+		</ul>
+		
 	</div>
 	<div>
 		<hr>
@@ -88,6 +106,13 @@
 			<li>Designed and deployed a Web application that would use cloud computing, and docker to make a web scraper that would play a game online</li>
 			<li>Designed and made this very website using Firebase and Svelte</li>
 			<li>Collaborated with a team to search for security vulnerabilities on a virtual machine, made an incident report for therein vulnerabilities</li>
+			<ul>
+				<li>Member of a cybersecurity prevention team, inspected potential infiltrations and, collaborated and helped create solutions to cybersecurity issues within a network</li>
+			</ul>
+			<li>Work on a team, MHS Pi 6744 Robotics team to develop, build and deploy code to a Robot using Java</li>
+			<ul>
+				<li>As the software programmer, we create implement and deploy through the use of java. To enable the robot to perform its teams desired tasks.</li>
+			</ul>
 		</ul>
 	</div>
 	<div>
@@ -109,11 +134,13 @@
 	<div>
 		<hr>
 		<h1>Volunteering</h1>
-		<ul>Meramec Valley Grotto, Aided in the cleaning and Bioinventory of caves</ul>
-		<ul>Scouts, Canned Food drives, Service projects</ul>
+		<ul>
+			<li>Meramec Valley Grotto, Aided in the cleaning and Bioinventory of caves</li>
+			<li>Scouts, Canned Food drives, Service projects</li>
+		</ul>
 	</div>
 	<div>
-		<hr />
+		<hr/>
 		<h1>Extracurriculars</h1>
 		<ul>
 			<li>First Robotics Competition Team MHS-PI 6744</li>
@@ -130,11 +157,9 @@
 		<li><a href="https://www.richandcharlies.com/">Rich & Charlies</a>, Busser 12/14/2023 - Present</li>
 	</ul>
 	</div>
-
 	<div>
 		<hr>
 		<h1>Download My Resume</h1>
 		<p>Click <a href="/downloadRedirect">Here</a></p>
 	</div>
-
 </main>
